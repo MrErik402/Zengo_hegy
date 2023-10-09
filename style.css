@@ -1,0 +1,47 @@
+#content{
+	width: 888px;
+    display: block;
+    margin: 0 auto;
+}
+#imageright{
+	margin-left: 20px;
+    border-color: forestgreen;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    display: block;
+    float: right;
+}
+#imageleft{
+	margin-right: 40px;
+    margin-bottom: 80px;
+    border-color: forestgreen;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    display: block;
+    float: left;
+}
+.kepszoveg{
+	font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+h1,h2{
+    text-transform: uppercase;
+    color: forestgreen;
+}
+link, link:visited{
+    color: blue;
+}
+link:active, link:hover{
+    color: red;
+}
+body{
+    border-style: solid;
+    border-width: 20px;
+    border-color: forestgreen;
+    border-radius: 20px;
+}
